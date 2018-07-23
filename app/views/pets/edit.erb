@@ -1,5 +1,7 @@
 <h1>Update Pet</h1>
 
+<% binding.pry %>
+
 <form action="/pets/<%=@pet.id%>" method="POST">
   <label>Pet Name:</label>
   <input type="text" name="pet[name]" id="pet_name" value="<%=@pet.name%>">
